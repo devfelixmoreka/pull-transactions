@@ -1,0 +1,14 @@
+{
+  "consumerKey": "",
+  "consumerSecret": "",
+
+  "shortCode": "4043449",
+
+  "oauthUrl": "https://api.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials",
+  "queryUrl": "https://api.safaricom.co.ke/pulltransactions/v1/query",
+
+  "pollEveryMs": 15000,
+  "windowMinutes": 2,
+
+  "storageFile": "./live-transactions.json"
+}
